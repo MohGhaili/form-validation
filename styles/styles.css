@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+    color: red;
+}
+
+.show {
+    display: block;
+}
+
+.invalid {
+    border: 1px solid red;
+}

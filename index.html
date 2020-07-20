@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3 mx-auto col-sm-8">
+            <form method="POST" class="user-form mx-auto col-sm-8">
+                <div class="form-group ">
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="name" class="form-control">
+                    <small id="help_name" class="hidden">Help text</small>
+                </div>
+                <div class="form-group ">
+                  <label for="email">Email address:</label>
+                  <input type="email" name="email" class="form-control" id="email">
+                  <small id="help_email" class="hidden">Help text</small>
+                </div>
+                <div class="form-group ">
+                  <label for="password">Password:</label>
+                  <input type="password" name="password" class="form-control" id="password">
+                  <small id="help_password" class="hidden">Help text</small>
+                </div>
+                <div class="form-group ">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" name="confirm_password" class="form-control" id="confirm_password">
+                    <small id="help_confirm_password" class="hidden">Help text</small>
+                </div>
+                <div class="form-group ">
+                    <label for="birth_day">Birth Day</label>
+                    <input type="date" name="birth_day" id="birth_day" class="form-control">
+                    <small id="help_birth_day" class="hidden">Help text</small>
+                </div>
+                <div class="form-group ">
+                    <label for="">Website</label>
+                    <input type="text" name="wibsite" id="wibsite" class="form-control">
+                    <small id="help_wibsite" class="hidden">Help text</small>
+                </div>
+                <button id='submit' type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
